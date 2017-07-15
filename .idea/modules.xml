@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AAA.iml" filepath="$PROJECT_DIR$/AAA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reader/Reader.iml" filepath="$PROJECT_DIR$/Reader/Reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gsontest/gsontest.iml" filepath="$PROJECT_DIR$/gsontest/gsontest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpurlconnection/httpurlconnection.iml" filepath="$PROJECT_DIR$/httpurlconnection/httpurlconnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project01_YouLu/project01_YouLu.iml" filepath="$PROJECT_DIR$/project01_YouLu/project01_YouLu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project02_emplayeemanager/project02_emplayeemanager.iml" filepath="$PROJECT_DIR$/project02_emplayeemanager/project02_emplayeemanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project03_music/project03_music.iml" filepath="$PROJECT_DIR$/project03_music/project03_music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project04_weather/project04_weather.iml" filepath="$PROJECT_DIR$/project04_weather/project04_weather.iml" />
+    </modules>
+  </component>
+</project>

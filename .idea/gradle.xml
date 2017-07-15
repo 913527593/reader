@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Reader" />
+            <option value="$PROJECT_DIR$/annotation" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/gsontest" />
+            <option value="$PROJECT_DIR$/httpurlconnection" />
+            <option value="$PROJECT_DIR$/project01_YouLu" />
+            <option value="$PROJECT_DIR$/project02_emplayeemanager" />
+            <option value="$PROJECT_DIR$/project03_music" />
+            <option value="$PROJECT_DIR$/project04_weather" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

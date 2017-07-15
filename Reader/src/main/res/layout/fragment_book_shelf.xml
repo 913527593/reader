@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.reader.books.fragment.BookShelfFragment">
+
+    <!-- TODO: Update blank fragment layout
+    android:id="@+id/book_shelf_action_bar"-->
+    <include
+        android:id="@+id/book_shelf_action_bar"
+        layout="@layout/include_new_action_bar_layout" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/book_shelf_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="4dp"
+        android:numColumns="3" />
+
+
+</LinearLayout>

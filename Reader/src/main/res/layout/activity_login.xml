@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reader.books.activity.LoginActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/aa"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="账号/邮箱/手机号" />
+
+            <com.reader.books.view.CircleImageView
+                android:id="@+id/img_use_photo"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_toStartOf="@+id/img_user_name_delector"
+                android:src="@drawable/ic_tab_my_unselected"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/img_user_name_delector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/et_user_name"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/close"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <EditText
+                android:id="@+id/et_pass_word"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="密码"
+                android:inputType="textPassword" />
+
+            <ImageView
+                android:id="@+id/img_pass_word_visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_toStartOf="@+id/img_pass_word_delector"
+                android:src="@drawable/eye_close"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/img_pass_word_delector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/et_pass_word"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/close"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_button"
+            android:text="登录"
+            android:textColor="#ffffff" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp">
+
+            <TextView
+                android:id="@+id/tv_pass_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘记密码？"
+                android:textColor="#7180f1" />
+
+            <TextView
+                android:id="@+id/tv_user_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="新用户注册"
+                android:textColor="#7180f1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

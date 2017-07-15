@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c2b6b6" />
+
+        <RadioGroup
+            android:id="@+id/main_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+
+            <RadioButton
+                android:id="@+id/main_book_shelf"
+                style="@style/RadioButtonStyle"
+                android:checked="true"
+                android:drawableTop="@drawable/selected_bookshelf"
+                android:textColor="@drawable/selected_main_bottom_radio_button_text"
+                android:text="@string/book_shelf" />
+
+            <RadioButton
+                android:id="@+id/main_book_shop"
+                style="@style/RadioButtonStyle"
+                android:drawableTop="@drawable/selected_bookshop"
+                android:textColor="@drawable/selected_main_bottom_radio_button_text"
+                android:text="精选" />
+
+            <RadioButton
+                android:id="@+id/main_book_home"
+                style="@style/RadioButtonStyle"
+                android:drawableTop="@drawable/selected_home"
+                android:textColor="@drawable/selected_main_bottom_radio_button_text"
+                android:text="书库" />
+
+            <RadioButton
+                android:id="@+id/main_book_found"
+                style="@style/RadioButtonStyle"
+                android:drawableTop="@drawable/selected_found"
+                android:textColor="@drawable/selected_main_bottom_radio_button_text"
+                android:text="发现" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:backgroundTint="#56abe4"
+        android:src="@drawable/right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="24dp" />
+</RelativeLayout>

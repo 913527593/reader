@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.reader.books.fragment.FoundFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/found_action_bar"
+        layout="@layout/include_new_action_bar_layout"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="发现" />
+
+</LinearLayout>
